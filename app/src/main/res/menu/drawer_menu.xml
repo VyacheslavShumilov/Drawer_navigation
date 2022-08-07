@@ -16,12 +16,12 @@
 
         <item
             android:id="@+id/nav_Favourite"
-            android:icon="@mipmap/ic_launcher_round"
+            android:icon="@drawable/ic_baseline_favorite_24"
             android:title="Favourite" />
 
         <item
             android:id="@+id/nav_setting"
-            android:icon="@mipmap/ic_launcher_round"
+            android:icon="@drawable/ic_baseline_settings_24"
             android:title="Setting" />
     </group>
 
@@ -29,15 +29,15 @@
         <menu>
             <item
                 android:id="@+id/nav_phone"
-                android:icon="@mipmap/ic_launcher_round"
+                android:icon="@drawable/ic_baseline_contact_phone_24"
                 android:title="Phone" />
             <item
                 android:id="@+id/nav_email"
-                android:icon="@mipmap/ic_launcher_round"
+                android:icon="@drawable/ic_baseline_alternate_email_24"
                 android:title="E-mail" />
             <item
                 android:id="@+id/nav_site"
-                android:icon="@mipmap/ic_launcher_round"
+                android:icon="@drawable/ic_baseline_web_24"
                 android:title="Site" />
         </menu>
     </item>

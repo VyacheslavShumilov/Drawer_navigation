@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_profile_edit"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Profile Edit" />
+
+        <item
+            android:id="@+id/nav_Favourite"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Favourite" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Contacts">
+        <menu>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="Phone" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="E-mail" />
+            <item
+                android:id="@+id/nav_site"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="Site" />
+        </menu>
+    </item>
+
+</menu>

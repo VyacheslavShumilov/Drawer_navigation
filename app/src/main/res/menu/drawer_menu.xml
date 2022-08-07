@@ -6,39 +6,39 @@
     <group android:checkableBehavior="none">
         <item
             android:id="@+id/nav_profile"
-            android:icon="@mipmap/ic_launcher_round"
-            android:title="Profile" />
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_profile" />
 
         <item
             android:id="@+id/nav_profile_edit"
-            android:icon="@mipmap/ic_launcher_round"
-            android:title="Profile Edit" />
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:title="@string/menu_profile_edit" />
 
         <item
             android:id="@+id/nav_Favourite"
             android:icon="@drawable/ic_baseline_favorite_24"
-            android:title="Favourite" />
+            android:title="@string/menu_favourite" />
 
         <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_baseline_settings_24"
-            android:title="Setting" />
+            android:title="@string/menu_setting" />
     </group>
 
-    <item android:title="Contacts">
+    <item android:title="@string/menu_contacts">
         <menu>
             <item
                 android:id="@+id/nav_phone"
                 android:icon="@drawable/ic_baseline_contact_phone_24"
-                android:title="Phone" />
+                android:title="@string/menu_phone" />
             <item
                 android:id="@+id/nav_email"
                 android:icon="@drawable/ic_baseline_alternate_email_24"
-                android:title="E-mail" />
+                android:title="@string/menu_e_mail" />
             <item
                 android:id="@+id/nav_site"
                 android:icon="@drawable/ic_baseline_web_24"
-                android:title="Site" />
+                android:title="@string/menu_site" />
         </menu>
     </item>
 

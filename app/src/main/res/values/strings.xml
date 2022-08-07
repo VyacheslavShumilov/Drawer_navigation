@@ -5,4 +5,12 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_profile_edit">Profile Edit</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_phone">Phone</string>
+    <string name="menu_e_mail">E-mail</string>
+    <string name="menu_site">Site</string>
 </resources>
